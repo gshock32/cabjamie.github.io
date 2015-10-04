@@ -1,8 +1,0 @@
-- require 'helpers/bbl_helpers'
-
--## template for markup generated from a list of sections.
--## functions defined in the helper class, probably most of which are redundant given middleman helper functions which I didn't know very well at the time of writing.
-
-- current_page.data.sections.each do |elem|
-  %section( class="#{elem[:role]}" )
-    = partial 'section', locals: { elem: elem }
