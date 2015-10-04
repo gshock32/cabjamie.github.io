@@ -1,0 +1,10 @@
+# robotstxt.org/
+
+User-agent: *
+
+# exclude staging stuff.
+Disallow: /staging
+Disallow: /researches/staging
+
+# retired areas.
+Disallow: /tagyeti
